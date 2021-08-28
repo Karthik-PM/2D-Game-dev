@@ -623,10 +623,7 @@ if(n==0):
 	unning=True
 	main_menu.menu1(unning, screen, score_board_font, running)
 	running=main_menu.state(running)
-	print(running)
-	start=score_board_font.render("EXIT",True,(255,0,0))
-	main_menu.game(running)
-
+	
 		
 	
 
